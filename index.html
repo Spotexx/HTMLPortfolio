@@ -1,21 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
     <nav>
-        <h2>Travis Anderson</h2>
-        <ul>
-            <a href="about-me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+        <h1>Travis Anderson</h1>
+        <ul class="nav-container">
+            <a class="nav-button" href="#about-me">
+                <h2>About Me</h2>
+            </a>
+            <a class="nav-button" href="#work">
+                <h2>Work</h2>
+            </a>
+            <a class="nav-button" href="#contact-me">
+                <h2>Contact Me</h2>
+            </a>
+            <a class="nav-button"
+                href="https://docs.google.com/document/d/1kg4jrBMQnHynL4KfsWp2aa5oTf5toFYKBM8fJxRYBJc/edit?usp=sharing">
+                <h2>Resume</h2>
+            </a>
         </ul>
     </nav>
+    <header>
+        <img id="headshot" src="./assets/images/TravisHeadshot.png" alt="Travis Anderson">
+        <h3>Your web developer</h3>
+    </header>
+    <main>
+        <article>
+            <div class="container">
+                <h4>About Me</h4>
+            </div>
+            <p class="article-content">
+                I am a web developer with a passion for learning and problem solving. I am currently a student at the
+                University of
+                Toronto School of Continuing Studies learning full-stack web development. I am currently working on a
+                project in my free time
+                that tracks the different medications that are prescribed to patient in order to provide an easier way
+                for patients to track
+                their prescriptions.
+            </p>
+        </article>
+        <article>
+            <div class="container">
+                <h4>Work</h4>
+            </div>
+            <section class="article-content" id="work">
+                <div class="img-container" style="width:100%">
+                    <img style="width:100%" src="./assets/images/Horiseon.png" alt="Travis Anderson">
+                    <a class="text-img-overlay" href="http://www.github.com">
+                        <p>Click To view Github</p>
+                    </a>
+                </div>
+                <section class="inner-flex-container">
+                    <div class="img-container">
+                        <img style="width:100%" src="./assets/images/MedicationSite1.png" alt="Travis Anderson">
+                        <a class="text-img-overlay" href="http://www.github.com">Click To view Github</a>
+                    </div>
+                    <div class="img-container">
+                        <img style="width:100%" src="./assets/images/LolSite1.png" alt="Travis Anderson">
+                        <a class="text-img-overlay" href="http://www.github.com">Click To view Github</a>
+                    </div>
+                </section>
+            </section>
+        </article>
+    </main>
 </body>
+
 </html>
