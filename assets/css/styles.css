@@ -135,7 +135,7 @@ h4 {
 #work {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     justify-content: center;
 }
 
@@ -204,6 +204,12 @@ h4 {
     p {
         border-left: 6px solid lightcyan;
         border-top: 6px solid darkblue;
+    }
+    .inner-flex-container {
+        flex-direction: column;
+    }
+    .img-container {
+        width: 100%;
     }
 }
 
