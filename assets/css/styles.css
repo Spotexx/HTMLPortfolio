@@ -172,7 +172,15 @@ h4 {
     transition: all 0.5s ease-in-out;
     filter: blur(2px);
 }
-
+.app-title{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transform: translate(25px, -50%);
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
 .img-container .text-img-overlay {
     top: 0;
     left: 0;
