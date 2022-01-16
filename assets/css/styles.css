@@ -62,6 +62,7 @@ h1:first-of-type {
     .nav-button {
         margin: 2%;
         font-size: small;
+        display: inline;
     }
 
     h1:first-of-type {
@@ -144,6 +145,7 @@ h4 {
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 #work>img {
