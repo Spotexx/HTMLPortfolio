@@ -34,7 +34,7 @@ h1:first-of-type {
 }
 
 .nav-button {
-    margin: 10%;
+    margin: 10% 2% 10% 2%;
     justify-content: center;
     align-items: center;
     flex: none;
@@ -61,6 +61,7 @@ h1:first-of-type {
 
     .nav-button {
         margin: 2%;
+        font-size: small;
     }
 
     h1:first-of-type {
