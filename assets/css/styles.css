@@ -200,8 +200,11 @@ h4 {
     article {
         flex-direction: column;
     }
+    h4{
+        position:relative
+    }
 
-    p {
+    .article-content {
         border-left: 6px solid lightcyan;
         border-top: 6px solid darkblue;
     }
