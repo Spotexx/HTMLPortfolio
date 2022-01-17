@@ -9,4 +9,4 @@ This is a copy of my portfolio which I have made using HTML, and CSS. I added Co
 Make sure to click [here](https://spotexx.github.io/HTMLPortfolio/) to view a live copy of the portfolio.
 
 ## Screenshot
-[screenshot](./assets/images/ReadMeScreenshot.png)
+![screenshot](./assets/images/ReadMeScreenshot.png)
