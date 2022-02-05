@@ -1,107 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travis's Portfolio</title>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    
 </head>
-
 <body>
-    <!-- #region nav -->
-    <nav>
-        <h1>Travis Anderson</h1>
-        <ul class="nav-container">
-            <a class="nav-button" href="#about-me">
-                <h2>About Me</h2>
-            </a>
-            <a class="nav-button" href="#work">
-                <h2>Work</h2>
-            </a>
-            <a class="nav-button" href="#contact-me">
-                <h2>Contact Me</h2>
-            </a>
-            <a class="nav-button"
-                href="https://docs.google.com/document/d/1kg4jrBMQnHynL4KfsWp2aa5oTf5toFYKBM8fJxRYBJc/edit?usp=sharing">
-                <h2>Resume</h2>
-            </a>
-        </ul>
-    </nav>
-    <!-- #endregion nav -->
-    <!-- #region header -->
-    <header>
-        <img id="headshot" src="./assets/images/TravisHeadshot.png" alt="Travis Anderson headshot">
-        <h3>Your web developer</h3>
-    </header>
-    <!-- #endregion header -->
-    <!-- #region main -->
-    <main>
-        <article>
-            <div class="container">
-                <h4>About Me</h4>
-            </div>
-            <p class="article-content" id="about-me">
-                I am a web developer with a passion for learning and problem solving. I am currently a student at the
-                University of
-                Toronto School of Continuing Studies learning full-stack web development. I am currently working on a
-                project in my free time that tracks the different medications that are prescribed to patient in order to
-                provide an easier
-                way for patients to track their prescriptions.
+    <div id="wrapper">
+        <section class="flex-container" id="about-me-content">
+            <h1 class="title"> Hello!</h1>
+            <p class="content">
+                I'm Travis Anderson, a web developer with experience using
+                HTML, Javascript, CSS, React, Material UI, MongoDB, Express, Node and MySQL.
             </p>
-        </article>
-        <article>
-            <div class="container">
-                <h4>Work</h4>
-            </div>
-            <section class="article-content" id="work">
-                <div class="img-container" style="width:100%">
-                    <img style="width:100%" src="./assets/images/Salbot.png" alt="Screenshot of SalBot Website">
-                    <p class="app-title">SalBot</p>
-                    <a class="text-img-overlay" href="https://travis-anderson023.github.io/SalBot/chatpage.html">Click To view
-                        Github</a>
-                </div>
-                <section class="inner-flex-container">
-                    <div class="img-container">
-                        <img style="width:100%" src="./assets/images/MedicationSite1.png"
-                            alt="Screenshot of Medication Tracker Website">
-                        <p class="app-title">Tracker</p>
-                        <!-- note that heroku may take 30 seconds to deploy -->
-                        <a class="text-img-overlay" href="https://moonmeds.herokuapp.com/">Click To view Github</a>
-                    </div>
-                    <div class="img-container">
-                        <img style="width:100%" src="./assets/images/LolSite1.png"
-                            alt="Screenshot of League of Legends Stat tracking Website">
-                        <p class="app-title">Lol Stats</p>
-                        <!-- note that heroku may take 30 seconds to deploy -->
-                        <a class="text-img-overlay" href="https://lolstatsportfolio.herokuapp.com/">Click To view
-                            Github</a>
-                    </div>
-                </section>
-            </section>
-        </article>
-        <article>
-            <div class="container">
-                <h4>Contact Me</h4>
-            </div>
-            <section class="article-content inner-flex-container" id="contact-me">
-                <!-- email -->
-                <a class="nav-button" style="color: black" href="mailto:tsanderson.023@gmail.com">Email</a>
-                <!-- phone number -->
-                <a class="nav-button" style="color: black" href="tel:613-634-9960">Phone</a>
-                <!-- linkedin -->
-                <a class="nav-button" style="color: black"
-                    href="https://www.linkedin.com/in/travis-anderson-60106a107/">LinkedIn</a>
-                <!-- github -->
-                <a class="nav-button" style="color: black" href="https://github.com/Spotexx/">Github</a>
-
-            </section>
-        </article>
-    </main>
-    <!-- #endregion main -->
+        </section>
+        <img class="flex-container" id="main-picture" src="./assets/images/mainPictureWide.png" />
+    </div>
+    
 </body>
-
 </html>
