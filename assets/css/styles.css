@@ -1,8 +1,8 @@
 /* #region wrappers */
 /* flex wrapper around all content */
 :root {
-    --main: #FFA384;
-    --secondary: #74BDCB;
+    --main: lightcyan;
+    --secondary: #FFA384;
     --text: #2b2e30;
 }
 
@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: stretch;
     font-family: 'Roboto', sans-serif;
-    background-color: lightcyan;
+    background-color: var(--main);
 }
 
 #wrapper {
@@ -86,7 +86,7 @@ nav {
 }
 
 h1 {
-    background-color: lightblue;
+    background-color: var(--main);
     padding: 0 10px 0 40px;
     font-size: 200%;
 }
@@ -107,8 +107,8 @@ h1 {
     height: auto;
     cursor: pointer;
     text-decoration: none;
-    color: lightblue;
-    border-bottom: 2px solid lightblue;
+    color: var(--main);
+    border-bottom: 2px solid var(--main);
 }
 
 .nav-button:hover {
@@ -155,7 +155,7 @@ header {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    box-shadow: 5px 5px lightblue;
+    box-shadow: 5px 5px var(--secondary);
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -166,7 +166,7 @@ h3:first-of-type {
     position: absolute;
     bottom: 5%;
     right: 5%;
-    background-color: lightblue;
+    background-color: var(--secondary);
     padding: 10px;
     font-size: 175%;
     text-align: right;
@@ -282,7 +282,7 @@ that is a child of .img-container */
     }
 
     .article-content {
-        border-left: 6px solid lightcyan;
+        border-left: 6px solid var(--main);
         border-top: 6px solid darkblue;
     }
 
