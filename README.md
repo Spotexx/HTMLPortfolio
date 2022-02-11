@@ -16,4 +16,4 @@ Make sure to click [here](https://Travis-Anderson023.github.io/HTMLPortfolio/) t
 
 You can reach the creator of this project at:
 [Github](http://github.com/Travis-Anderson023)
-[email]((mailto:tsanderson.023@gmail.com))
+[email](mailto:tsanderson.023@gmail.com)
